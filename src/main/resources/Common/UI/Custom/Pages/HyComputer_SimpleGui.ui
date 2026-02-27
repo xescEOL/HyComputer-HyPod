@@ -1,0 +1,221 @@
+$C = "../Common.ui";
+
+$C.@PageOverlay {
+
+  $C.@Container {
+    Anchor: (Width: 1145, Height: 680);
+
+    #Title {
+      Group {
+        $C.@Title {
+          @Text = "Hytale OS";
+        }
+      }
+    }
+
+    #Content {
+      LayoutMode: Top;
+      Padding: (Top: 20, Left: 20, Right: 20, Bottom: 80);
+
+      // Missatges principals
+      Group #MessageSection {
+        LayoutMode: Top;
+        Anchor: (Height: 80, Bottom: 20);
+        Padding: (Left: 10, Right: 10);
+
+        Label #MessageTitle {
+          Text: "Welcome to HyComputer!";
+          Anchor: (Height: 35, Bottom: 5);
+          Style: (
+            FontSize: 24,
+            RenderBold: true,
+            TextColor: #ffffff,
+            HorizontalAlignment: Center
+          );
+        }
+
+        Label #MessageText {
+          Text: "Select an option from the menu below:";
+          Anchor: (Height: 25);
+          Style: (
+            FontSize: 16,
+            TextColor: #cccccc,
+            HorizontalAlignment: Center
+          );
+        }
+      }
+
+      // Botons organitzats en columnes
+      Group #ButtonsSection {
+        LayoutMode: Left;
+
+        Group #Column1 {
+          LayoutMode: Top;
+          Anchor: (Width: 360, Right: 10);
+          Visible: false;
+
+          $C.@SecondaryTextButton #Button0 {
+            Text: "Button 0";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button1 {
+            Text: "Button 1";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button2 {
+            Text: "Button 2";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button3 {
+            Text: "Button 3";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button4 {
+            Text: "Button 4";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button5 {
+            Text: "Button 5";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button6 {
+            Text: "Button 6";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+        }
+
+        Group #Column2 {
+          LayoutMode: Top;
+          Anchor: (Width: 360, Right: 10);
+          Visible: false;
+
+          $C.@SecondaryTextButton #Button7 {
+            Text: "Button 7";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button8 {
+            Text: "Button 8";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button9 {
+            Text: "Button 9";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button10 {
+            Text: "Button 10";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button11 {
+            Text: "Button 11";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button12 {
+            Text: "Button 12";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button13 {
+            Text: "Button 13";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+        }
+
+        Group #Column3 {
+          LayoutMode: Top;
+          Anchor: (Width: 360);
+          Visible: false;
+
+          $C.@SecondaryTextButton #Button14 {
+            Text: "Button 14";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button15 {
+            Text: "Button 15";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button16 {
+            Text: "Button 16";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button17 {
+            Text: "Button 17";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button18 {
+            Text: "Button 18";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button19 {
+            Text: "Button 19";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+
+          $C.@SecondaryTextButton #Button20 {
+            Text: "Button 20";
+            Anchor: (Height: 60, Bottom: 10);
+            TooltipText: "";
+            Visible: false;
+          }
+        }
+      }
+    }
+  }
+}
+
+$C.@BackButton {}

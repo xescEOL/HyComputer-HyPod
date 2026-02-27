@@ -1,0 +1,57 @@
+$C = "../Common.ui";
+
+$C.@PageOverlay {
+
+  $C.@DecoratedContainer {
+    Anchor: (Width: 500, Height: 250);
+
+    #Title {
+      Group {
+        $C.@Title {
+          @Text = "HyComputer - Input";
+        }
+      }
+    }
+
+    #Content {
+      LayoutMode: Top;
+      Padding: (Top: 20, Left: 40, Right: 40, Bottom: 20);
+
+      Label #ArgumentLabel {
+        Text: "Value:";
+        Anchor: (Height: 30, Bottom: 10);
+        Style: (
+          FontSize: 16,
+          RenderBold: true,
+          TextColor: #ffffff
+        );
+      }
+
+      $C.@TextField #ArgumentInput {
+        Anchor: (Height: 40, Bottom: 20);
+        PlaceholderText: "Enter value here...";
+      }
+
+      Group #ButtonGroup {
+        LayoutMode: Left;
+        Anchor: (Height: 50);
+
+        $C.@CancelTextButton #CancelButton {
+          Text: "Cancel";
+          Anchor: (Width: 195, Height: 50, Right: 10);
+          TooltipText: "Cancel and go back";
+          Padding: (Left: 16, Right: 16, Top: 6, Bottom: 6);
+        }
+
+        $C.@TextButton #ConfirmButton {
+          Text: "Confirm";
+          Anchor: (Width: 195, Height: 50);
+          TooltipText: "Confirm and continue";
+          Padding: (Left: 16, Right: 16, Top: 6, Bottom: 6);
+        }
+      }
+    }
+  }
+}
+
+$C.@BackButton {}
