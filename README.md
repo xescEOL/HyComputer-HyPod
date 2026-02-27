@@ -1,6 +1,8 @@
 # HyComputer-HyPod
 Hytale MOD: With HyComputer, you can execute commands (both vanilla and modded) using convenient buttons instead of typing. All commands are fully customizable.
 
+https://www.curseforge.com/hytale/mods/hycomputer
+
 Description
 
 HyComputer: Command Interaction Made Easy
